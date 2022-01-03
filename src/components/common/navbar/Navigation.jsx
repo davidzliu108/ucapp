@@ -14,11 +14,11 @@ function Navigation () {
                     <LinkContainer to='/' >
                         <Nav.Link>Home</Nav.Link>
                     </LinkContainer>
+                    <LinkContainer to='/progress'>
+                        <Nav.Link>Food Tracker</Nav.Link>
+                    </LinkContainer>
                     <LinkContainer to='/reddit'>
                         <Nav.Link>Forum</Nav.Link>
-                    </LinkContainer>
-                    <LinkContainer to='/progress'>
-                        <Nav.Link>Progress</Nav.Link>
                     </LinkContainer>                    
                     <LinkContainer to='/map'>
                         <Nav.Link>Map</Nav.Link>

@@ -108,7 +108,7 @@ export default function Todo() {
                     </Card.Body>
                 </Card>
 
-                <Card bg="warning" text="dark">
+                <Card style={{flex: 1}} bg="warning" text="dark">
                     <Card.Body>
                         <Card.Title>Yellow Light Foods</Card.Title>
                         <Card.Text>
@@ -122,7 +122,7 @@ export default function Todo() {
                     </Card.Body>
                 </Card>
 
-                <Card bg="success" text="light">
+                <Card style={{flex: 1}} bg="success" text="light">
                     <Card.Body>
                         <Card.Title>Green Light Foods</Card.Title>
                         <Card.Text>

@@ -33,6 +33,7 @@ export default function Reddit() {
 
     return (
         <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
+            <br></br>
             <GlobalStyles />
             <StyledApp>
                 <div class="text-center" ><h2 > UC Center</h2></div>
